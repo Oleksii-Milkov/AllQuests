@@ -1,0 +1,196 @@
+@media (max-width: 800px) {
+    #door {
+        display: none;
+    }
+}
+
+@media (min-width: 1800px) {
+    #door {
+        display: initial;
+    }
+}
+
+@media (max-width: 1000px) {
+    #themeBlockBg {
+        background-image: none;
+        height: 0px;
+        display: none;
+    }
+    #themeBlockBg > svg, #themeBlockBg > .container{
+        display: none;
+    }
+}
+
+@media (min-width: 1000px) {
+    #themeBlockBg {
+        height: 400px;
+    }
+    #themeBlockBg > svg, #themeBlockBg > .container{
+        display: initial;
+    }
+}
+
+@media (min-width: 1400px) {
+    #themeBlockBg {
+        height: 700px;
+    }
+    #themeBlockBg > svg, #themeBlockBg > .container {
+        display: initial;
+    }
+}
+
+@media (min-width: 1800px) {
+    #themeBlockBg {
+        height: 1000px;
+    }
+    #themeBlockBg > svg, #themeBlockBg > .container {
+        display: initial;
+    }
+}
+
+@media (min-width: 900px) {
+    #cardContent {
+        width: 95%;
+    }
+}
+
+@media (min-width: 1300px) {
+    #cardContent {
+        width: 85%;
+    }
+}
+
+@media (min-width: 1800px) {
+    #cardContent {
+        width: 75%;
+    }
+}
+
+@media (min-width: 400px) {
+    .card {
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .video {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+@media (min-width: 600px) {
+    .card {
+        min-width: 19em;
+        max-width: 19em;
+    }
+    .video {
+        width: 100%;
+        height: 400px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .card {
+        min-width: 19em;
+        max-width: 19em;
+    }
+    .video {
+        width: 100%;
+        height: 500px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .card {
+        min-width: 19em;
+        max-width: 19em;
+    }
+    .video {
+        width: 100%;
+        height: 600px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .card {
+        min-width: 19em;
+        max-width: 19em;
+    }
+    .video {
+        width: 100%;
+        height: 600px;
+    }
+}
+
+@media(min-width: 1200px){
+    .questImg {
+        background-image: url('images/img2.jpeg');
+        height: 350px;
+        width: 100%;
+    }
+    
+}
+
+@media (max-width: 1200px){
+    .questImg {
+        background-image: url('images/img2Full.jpeg');
+        height: 250px;
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+        border: 1px;
+    }
+    #infoBox {
+        border-radius: 0px 0px 0px 0px;
+    }
+    
+}
+
+
+@media (max-width: 800px) {
+    .bonusImages {
+        width: 100%;
+    }
+    
+    .bonusImages > img{  
+        width: 60px;
+    }
+}
+
+@media (min-width: 800px) {
+    .bonusImages {
+        width: 100%;
+    }
+    
+    .bonusImages > img{  
+        width: 60px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .bonusImages {
+        width: 100%;
+    }
+    
+    .bonusImages > img{  
+        width: 100px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .bonusImages {
+        width: 90%;
+    }
+    
+    .bonusImages > img{  
+        width: 120px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .bonusImages {
+        width: 80%;
+    }
+    
+    .bonusImages > img{  
+        width: 150px;
+    }
+}

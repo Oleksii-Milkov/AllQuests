@@ -1,0 +1,26 @@
+#themeBlockBg {
+    background-image: url('bgImages/bg1.jpg');
+    background-size: 100%;
+    transition: all .3s linear;
+}
+
+#themeBlock {
+    background-color: black;
+    transition: background-color .5s cubic-bezier(0.5, 0.5, 0.5, 0.5), color .5s 1s linear;
+}
+
+#btnPrevious,
+#btnNext {
+    fill: white;
+}
+
+footer {
+    color: white;
+    fill: white;
+}
+
+#themeButton {
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+}
